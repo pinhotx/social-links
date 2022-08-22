@@ -1,1 +1,69 @@
- 
+:root {
+    --body-bg-color: #3B004D;
+    --body-bg-color-alpha5: rgba(23, 0, 30, 0.5);
+    --purple: #EEC7FF;
+    --green: #8BEA7F;
+    --blue: #A1DDFF;
+    --orange: #EBCFAC;
+    --yellow: #F6D100;
+    --no-bg: rgba(0, 0, 0, 0);
+  }
+
+
+html {
+    background-color: var(--body-bg-color);
+}
+
+section {
+    margin: 0 auto;
+}
+
+ul {
+    margin: 0 auto;
+    list-style: none;   
+    padding-inline-start: 0;
+    width: 326px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+button {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 326px;
+    height: 50px;
+    text-transform: uppercase;
+    background-color: var(--no-bg);
+    font-weight: 600;
+    margin: 1rem 0;
+    transition: 0.5s;
+    border: 2px solid;
+    border-radius: 4px;
+}
+
+button:hover {
+    border: 3px solid;
+    border-radius: 16px;
+    background-color: var(--body-bg-color-alpha5);
+    font-size: 1em;
+}
+
+button#follow-me {
+    border-color: var(--orange);
+    color: var(--orange);
+}
+
+button#support-me {
+    border-color: var(--green);
+    color: var(--green)
+}
+
+button#hire-me {
+    border-color: var(--blue);
+    color: var(--blue);
+}
+
+button#portifolio {
+    border-color: var(--purple);
+    color: var(--purple);
+}
