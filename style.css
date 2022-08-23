@@ -88,13 +88,8 @@ footer ul li{
 }
 
 #follow-me .button {
-    border-color: var(--orange);
-    color: var(--orange);
-}
-
-#support-me .button {
-    border-color: var(--green);
-    color: var(--green);
+    border-color: var(--purple);
+    color: var(--purple);
 }
 
 #hire-me  .button{
@@ -102,9 +97,15 @@ footer ul li{
     color: var(--blue);
 }
 
+
+#support-me .button {
+    border-color: var(--green);
+    color: var(--green);
+}
+
 #portifolio .button {
-    border-color: var(--purple);
-    color: var(--purple);
+    border-color: var(--orange);    
+    color: var(--orange);
 }
 
 #profile-picture img{
