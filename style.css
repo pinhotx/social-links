@@ -169,3 +169,7 @@ footer ul li{
 .fa#instagram-footer-link:hover{
     color: var(--purple);
 }
+
+.fa#reddit-footer-link:hover{
+    color: var(--orange);
+}
