@@ -14,8 +14,18 @@ html {
     background-color: var(--body-bg-color);
 }
 
-section {
-    margin: 0 auto;
+footer{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: var(--body-bg-color-alpha5);
+
+
+}
+
+main {
+    margin: 10vh auto;
 }
 
 ul {
@@ -27,7 +37,37 @@ ul {
     margin-block-end: 0;
 }
 
-button {
+a{
+    text-decoration: none;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+} 
+
+
+footer ul{
+    margin-bottom: 0.9rem;
+    text-align: center;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+
+
+}
+
+footer ul li{
+    display: inline;
+    text-align: center;
+    margin: auto;
+    display:inline-block;
+
+}
+
+
+
+.button {
+    line-height: 24px;
     box-sizing: border-box;
     padding: 10px;
     width: 326px;
@@ -39,31 +79,30 @@ button {
     transition: 0.5s;
     border: 2px solid;
     border-radius: 4px;
+    display: block;
 }
 
-button:hover {
-    border: 3px solid;
-    border-radius: 16px;
+.button:hover {
     background-color: var(--body-bg-color-alpha5);
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
-button#follow-me {
+#follow-me .button {
     border-color: var(--orange);
     color: var(--orange);
 }
 
-button#support-me {
+#support-me .button {
     border-color: var(--green);
-    color: var(--green)
+    color: var(--green);
 }
 
-button#hire-me {
+#hire-me  .button{
     border-color: var(--blue);
     color: var(--blue);
 }
 
-button#portifolio {
+#portifolio .button {
     border-color: var(--purple);
     color: var(--purple);
 }
@@ -98,4 +137,34 @@ button#portifolio {
 
 .hexagon:hover{
   background-color: var(--green);
+}
+
+.fa {
+    margin-top: 1rem;
+    color: var(--yellow);
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
+
+.fa:hover{
+    font-size: 3rem;
+}
+
+.fa#github-footer-link:hover{
+    color: var(--orange);
+}
+
+.fa#linkedin-footer-link:hover{
+    color: var(--blue);
+}
+
+.fa#twitter-footer-link:hover{
+    color: var(--blue);
+}
+.fa#twitch-footer-link:hover{
+    color: var(--purple);
+}
+
+.fa#instagram-footer-link:hover{
+    color: var(--purple);
 }
