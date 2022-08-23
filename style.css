@@ -67,3 +67,35 @@ button#portifolio {
     border-color: var(--purple);
     color: var(--purple);
 }
+
+#profile-picture img{
+    width: 271px;
+    height: 271px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+}
+.hexagon{
+        margin: 20px auto; 
+        width: 211px;
+        height: 244px;
+        background: var(--yellow);
+        box-sizing: border-box;
+        padding: 2px;
+        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        transition: 0.5s;
+
+}
+.hexagon #profile-picture{
+    display: flex;
+    margin: auto; 
+    width: 209px;
+    height: 242px;
+    background: var(--body-bg-color);
+    box-sizing: border-box;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+}
+
+.hexagon:hover{
+  background-color: var(--green);
+}
