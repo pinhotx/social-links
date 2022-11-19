@@ -44,6 +44,11 @@ a{
    
 } 
 
+footer ul a img{
+    width: 1em;
+    height: auto;
+}
+
 
 footer ul{
     margin-bottom: 0.9rem;
