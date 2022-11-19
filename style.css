@@ -44,11 +44,6 @@ a{
    
 } 
 
-footer ul a img{
-    width: 1em;
-    height: auto;
-}
-
 
 footer ul{
     margin-bottom: 0.9rem;
@@ -155,7 +150,10 @@ footer ul li{
 .fa:hover{
     font-size: 3rem;
 }
-
+.fa#koo-footer-link{
+    height: 3rem;
+    width: 3rem;
+}
 .fa#github-footer-link:hover{
     color: var(--orange);
 }
